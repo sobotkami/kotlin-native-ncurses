@@ -1,0 +1,4 @@
+headers = curses.h
+headerFilter = curses.h
+compilerOpts = -I/usr/include -I/usr/include/ncurses
+linkerOpts.linux = -L/usr/lib64 -L/usr/lib/x86_64-linux-gnu -lncurses
