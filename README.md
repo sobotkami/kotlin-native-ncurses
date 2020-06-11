@@ -3,7 +3,7 @@ Minimal example of Kotlin/Native with NCurses. It demonstrates how to setup the 
 
 Tested on Fedora 32. The app take about 600 kiB of RAM in the debug version.
 
-```
+```kotlin
 import kotlinx.cinterop.CPointer
 import ncurses.*
 import platform.posix.sleep
