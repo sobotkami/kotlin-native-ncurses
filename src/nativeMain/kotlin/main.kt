@@ -13,7 +13,7 @@ fun cleanUp(window: CPointer<WINDOW>) {
 fun showHelloWorld() {
     mvaddstr(13, 33, "Hello, world!")
     refresh()
-    sleep(3)
+    sleep(5)
 }
 
 fun main() {

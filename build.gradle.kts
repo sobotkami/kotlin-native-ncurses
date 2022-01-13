@@ -1,15 +1,13 @@
 plugins {
-    kotlin("multiplatform") version "1.4-M2"
+    kotlin("multiplatform") version "1.6.10"
 }
 group = "me.miso"
 version = "1.0-SNAPSHOT"
 
 repositories {
     mavenCentral()
-    maven {
-        url = uri("https://dl.bintray.com/kotlin/kotlin-eap")
-    }
 }
+
 kotlin {
     val hostOs = System.getProperty("os.name")
     val isMingwX64 = hostOs.startsWith("Windows")
