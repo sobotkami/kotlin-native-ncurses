@@ -1,6 +1,7 @@
 plugins {
-    kotlin("multiplatform") version "1.6.10"
+    kotlin("multiplatform") version "1.8.0-Beta"
 }
+
 group = "me.miso"
 version = "1.0-SNAPSHOT"
 
