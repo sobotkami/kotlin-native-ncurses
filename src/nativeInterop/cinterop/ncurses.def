@@ -1,4 +1,5 @@
 headers = curses.h
 headerFilter = curses.h
-compilerOpts = -I/usr/include -I/usr/include/ncurses
-linkerOpts.linux = -L/usr/lib64 -L/usr/lib/x86_64-linux-gnu -lncurses --allow-shlib-undefined
+compilerOpts = -I/usr/include -I/usr/include/ncurses -I/opt/local/include
+linkerOpts.linux = -L/usr/lib64 -L/usr/lib/x86_64-linux-gnu -L/opt/local/lib -lncurses --allow-shlib-undefined
+linkerOpts.osx = -L/opt/local/lib -lncurses
